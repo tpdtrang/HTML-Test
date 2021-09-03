@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+    <link rel="stylesheet" href="/style/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/8cfa2c35fa.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div>
+      <header class="p-header">
+        <i id="check" class="fas fa-bars"></i>
+        <div class="header-container">
+          <ul class="p-menu-main">
+            <li class="menu-item active">
+              <a href="#" class="item-link">HOME</a>
+            </li>
+            <li
+              onclick='document.getElementById("band").scrollIntoView()'
+              class="menu-item"
+            >
+              <a class="item-link">BAND</a>
+            </li>
+            <li
+              onclick='document.getElementById("tour-date").scrollIntoView()'
+              class="menu-item"
+            >
+              <a class="item-link">TOUR</a>
+            </li>
+            <li
+              onclick='document.getElementById("contact").scrollIntoView()'
+              class="menu-item"
+            >
+              <a class="item-link">CONTACT</a>
+            </li>
+            <div class="dropdown">
+              <li
+                class="dropdown-toggle menu-item"
+                type="button"
+                id="dropdownMenuButton"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                MORE
+              </li>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">Merchandise</a>
+                <a class="dropdown-item" href="#">Extras</a>
+                <a class="dropdown-item" href="#">Media</a>
+              </div>
+            </div>
+          </ul>
+
+          <span style="padding: 12px 24px">
+            <i class="fas fa-search"></i>
+          </span>
+        </div>
+        <div class="menu-mobie">
+          <ul>
+            <li>
+              <a href="#">HOME</a>
+            </li>
+            <li onclick='document.getElementById("band").scrollIntoView()'>
+              <a>BAND</a>
+            </li>
+            <li onclick='document.getElementById("tour-date").scrollIntoView()'>
+              <a>TOUR</a>
+            </li>
+            <li onclick='document.getElementById("contact").scrollIntoView()'>
+              <a>CONTACT</a>
+            </li>
+            <li>
+              <a>MERCH</a>
+            </li>
+          </ul>
+        </div>
+      </header>
+
+      <div class="p-slider">
+        <div class="mySlides" class="mySlides">
+          <img
+            src="https://www.w3schools.com/w3images/ny.jpg"
+            style="width: 100%"
+          />
+          <div class="container-slider">
+            <h3>New York</h3>
+            <p>The atmosphere in New York is lorem ipsum.</p>
+          </div>
+        </div>
+        <div class="mySlides">
+          <img
+            src="	https://www.w3schools.com/w3images/la.jpg"
+            style="width: 100%"
+          />
+          <div class="container-slider">
+            <h3>Los Angeles</h3>
+            <p>We had the best time playing at Venice Beach!</p>
+          </div>
+        </div>
+        <div class="mySlides">
+          <img
+            src="https://www.w3schools.com/w3images/chicago.jpg"
+            style="width: 100%"
+          />
+          <div class="container-slider">
+            <h3>Chicago</h3>
+            <p>Thank you, Chicago - A night we won't forget.</p>
+          </div>
+        </div>
+      </div>
+      <div class="p-content">
+        <div id="band" class="p-content-band">
+          <div style="text-align: center">
+            <h2>THE BAND</h2>
+            <em>We love music</em>
+          </div>
+          <p style="margin-top: 14px">
+            We have created a fictional band website. Lorem ipsum dolor sit
+            amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+            nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+            cupidatat non proident, sunt in culpa qui officia deserunt mollit
+            anim id est laborum consectetur adipiscing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat.
+          </p>
+
+          <div class="row" style="padding: 32px 0; text-align: center">
+            <div class="col-12 col-xs-12 col-lg-4">
+              <div>
+                <p>Name</p>
+                <img
+                  style="width: 60%"
+                  src="https://www.w3schools.com/w3images/bandmember.jpg"
+                />
+              </div>
+            </div>
+            <div class="col-12 col-xs-12 col-lg-4">
+              <div>
+                <p>Name</p>
+                <img
+                  style="width: 60%"
+                  src="https://www.w3schools.com/w3images/bandmember.jpg"
+                />
+              </div>
+            </div>
+            <div class="col-12 col-xs-12 col-lg-4">
+              <div>
+                <p>Name</p>
+                <img
+                  style="width: 60%"
+                  src="https://www.w3schools.com/w3images/bandmember.jpg"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="p-content-tour-date">
+          <div id="tour-date" class="container-tour-date">
+            <div class="title">
+              <h2>TOUR DATES</h2>
+              <em> Remember to book your tickets! </em>
+            </div>
+            <ul class="list-date">
+              <li class="item-date">September <span>Sold out</span></li>
+              <li class="item-date">October <span>Sold out</span></li>
+              <li class="item-date number">
+                November
+                <span style="text-align: right">3</span>
+              </li>
+            </ul>
+            <div class="row list-buy" style="padding: 32px 0">
+              <div class="col-12 col-xs-12 col-lg-4">
+                <div class="item-buy">
+                  <img
+                    style="width: 100%"
+                    src="	https://www.w3schools.com/w3images/newyork.jpg"
+                  />
+                  <div class="container-buy">
+                    <p>
+                      <b>New York</b>
+                    </p>
+                    <p class="date">Fri 27 Nov 2016</p>
+                    <p>
+                      Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+                    </p>
+                    <button>Buy Tickets</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-xs-12 col-lg-4">
+                <div class="item-buy">
+                  <img
+                    style="width: 100%"
+                    src="https://www.w3schools.com/w3images/paris.jpg"
+                  />
+                  <div class="container-buy">
+                    <p>
+                      <b>Paris</b>
+                    </p>
+                    <p class="date">Fri 27 Nov 2016</p>
+                    <p>
+                      Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+                    </p>
+                    <button>Buy Tickets</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-xs-12 col-lg-4">
+                <div class="item-buy">
+                  <img
+                    style="width: 100%"
+                    src="https://www.w3schools.com/w3images/sanfran.jpg"
+                  />
+                  <div class="container-buy">
+                    <p>
+                      <b>San Francisco</b>
+                    </p>
+                    <p class="date">Fri 27 Nov 2016</p>
+                    <p>
+                      Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+                    </p>
+                    <button>Buy Tickets</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="contact" class="p-content-contact">
+          <div class="container-contact">
+            <div class="title">
+              <h2>CONTACT</h2>
+              <p><i>Fan? Drop a note!</i></p>
+            </div>
+            <div class="row">
+              <div class="col-12 col-xs-12 col-lg-6">
+                <p>
+                  <i class="fa fa-map-marker" style="width: 30px"></i>Chicago,
+                  US
+                </p>
+                <p>
+                  <i class="fa fa-phone" style="width: 30px"></i>Phone: +00
+                  151515
+                </p>
+                <p>
+                  <i class="fa fa-envelope" style="width: 30px"> </i>Email:
+                  mail@mail.com
+                </p>
+              </div>
+              <div class="col-12 col-xs-12 col-lg-6">
+                <div class="row contact-input">
+                  <div class="col-6">
+                    <input placeholder="Name" />
+                  </div>
+                  <div class="col-6">
+                    <input placeholder="Email" />
+                  </div>
+                  <div class="col-12" style="margin-top: 10px">
+                    <input placeholder="Message" />
+                  </div>
+                </div>
+                <div style="text-align: right; margin-top: 10px">
+                  <button>Send</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img
+          src="https://www.w3schools.com/w3images/map.jpg"
+          style="width: 100%"
+        />
+      </div>
+      <footer class="p-footer">
+        <div class="container container-footer">
+          <p class="icon-footer">
+            <i class="fa fa-facebook-official w3-hover-opacity"></i>
+            <i class="fa fa-instagram w3-hover-opacity"></i>
+            <i class="fa fa-snapchat w3-hover-opacity"></i>
+            <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+            <i class="fa fa-twitter w3-hover-opacity"></i>
+            <i class="fa fa-linkedin w3-hover-opacity"></i>
+          </p>
+          <p style="color: #656565">
+            Powered by
+            <a
+              style="color: #656565"
+              href="https://www.w3schools.com/w3css/default.asp"
+              >w3.css</a
+            >
+          </p>
+        </div>
+      </footer>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+      integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+      integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      var myIndex = 0;
+      carousel();
+      function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        myIndex++;
+        if (myIndex > x.length) {
+          myIndex = 1;
+        }
+        x[myIndex - 1].style.display = "block";
+        setTimeout(carousel, 2000); // Change image every 2 seconds
+      }
+      $(document).ready(function () {
+        $("#check").click(function () {
+          $(".menu-mobie").toggleClass("active");
+        });
+      });
+    </script>
+  </body>
+</html>
