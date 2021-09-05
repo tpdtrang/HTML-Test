@@ -268,34 +268,34 @@ body {
     }
   }
 
-  @media screen and (min-width: 300px) and (max-width: 700px) {
-    .p-content {
-      .p-content-band {
-        // background-color: red;
-        // font-size: 30px;
-        max-width: 100%;
-        width: 100%;
-        padding: 32px 20px;
-        margin: 0 auto;
-      }
-      .p-content-tour-date {
-        // font-size: 30px;
-        width: 100%;
-        margin: 0 auto;
-        .container-tour-date {
-          max-width: 100%;
-          padding: 32px 20px;
-        }
-      }
-      .p-content-contact {
-        // font-size: 30px;
-        width: 100%;
-        margin: 0 auto;
-        .container-contact {
-          max-width: 100%;
-          padding: 32px 20px;
-        }
-      }
-    }
-  }
+  // @media screen and (min-width: 300px) and (max-width: 700px) {
+  //   .p-content {
+  //     .p-content-band {
+  //       // background-color: red;
+  //       // font-size: 30px;
+  //       max-width: 100%;
+  //       width: 100%;
+  //       padding: 32px 20px;
+  //       margin: 0 auto;
+  //     }
+  //     .p-content-tour-date {
+  //       // font-size: 30px;
+  //       width: 100%;
+  //       margin: 0 auto;
+  //       .container-tour-date {
+  //         max-width: 100%;
+  //         padding: 32px 20px;
+  //       }
+  //     }
+  //     .p-content-contact {
+  //       // font-size: 30px;
+  //       width: 100%;
+  //       margin: 0 auto;
+  //       .container-contact {
+  //         max-width: 100%;
+  //         padding: 32px 20px;
+  //       }
+  //     }
+  //   }
+  // }
 }
